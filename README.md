@@ -152,7 +152,7 @@ Runs vulnerability detection scripts against the target.
 The assessment successfully identified:
 
 - Live target host
-- Open TCP ports
+- Open TCP ports and UDP ports
 - Running network services
 - Service versions
 - Operating system details
@@ -167,6 +167,7 @@ This project helped me understand:
 - Network reconnaissance
 - Host discovery techniques
 - TCP SYN scanning
+- UDP scanning
 - Service enumeration
 - Version detection
 - Operating system fingerprinting
