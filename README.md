@@ -13,7 +13,7 @@ The project covers the complete reconnaissance phase of a penetration test, incl
 The primary objectives of this lab are to:
 
 - Discover live hosts on the network
-- Identify open TCP ports
+- Identify open TCP ports and UDP ports
 - Enumerate running services
 - Detect service versions
 - Identify the target operating system
@@ -49,7 +49,7 @@ The assessment was performed using the following methodology:
 
 1. Verify network connectivity.
 2. Perform host discovery.
-3. Scan for open TCP ports.
+3. Scan for open TCP ports and UDP ports.
 4. Detect running services and versions.
 5. Identify the operating system.
 6. Execute default NSE scripts.
@@ -65,11 +65,10 @@ The assessment was performed using the following methodology:
 ### Host Discovery
 
 ```bash
-nmap -sn <Target-IP> -Pn
+nmap -sn <Target-IP>
 ```
 
 Discovers whether the target host is online.
--Pn --> Disable Port Scanning
 
 ---
 
@@ -80,6 +79,16 @@ nmap -sS <Target-IP>
 ```
 
 Performs a stealth SYN scan to identify open TCP ports.
+
+---
+
+### UDP Scan
+
+```bash
+nmap -sU <Target-IP>
+```
+
+Discovers open UDP ports.
 
 ---
 
