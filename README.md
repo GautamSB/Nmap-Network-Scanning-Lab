@@ -158,6 +158,10 @@ The assessment successfully identified:
 - Operating system details
 - Potential vulnerabilities detected through NSE scripts
 
+## 📄 Detailed Report
+
+For the complete assessment, findings, and scan results, see **[REPORT.md](REPORT.md)**.
+
 ---
 
 # 📖 Learning Outcomes
