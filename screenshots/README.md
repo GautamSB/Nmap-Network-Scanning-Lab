@@ -1,9 +1,5 @@
 # 📷 Screenshots
 
-Screenshots will be added after completing the assessment.
-
-Example:
-
 ```
 screenshots/
 │── host-discovery.png
